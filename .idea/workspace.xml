@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="27abed60-e282-4650-8ea3-a97fcdb068c4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DBConnectors/DatabaseHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DBConnectors/H2Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DBConnectors/PostgresHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DBConnectors/Row.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Start.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Trees/Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Trees/TreeBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UI/TreeCustomRender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UI/TreeExplorer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/h2_hibernate.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/postgres_hibernate.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Record" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-19.0.1/Contents/Home/lib/src.zip!/java.desktop/java/awt/Font.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-19.0.1/Contents/Home/lib/src.zip!/java.desktop/java/awt/GridBagLayout.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-19.0.1/Contents/Home/lib/src.zip!/java.desktop/java/awt/GridLayout.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-19.0.1/Contents/Home/lib/src.zip!/java.desktop/java/awt/Window.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-19.0.1/Contents/Home/lib/src.zip!/java.desktop/javax/swing/BoxLayout.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-19.0.1/Contents/Home/lib/src.zip!/java.desktop/javax/swing/UIManager.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2Z2dwRTADNWZRS3YBIBitrbNoyh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Start.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH": "766",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "19",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/notefate/IdeaProjects/HW3",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Start">
+    <configuration name="Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Start" />
+      <module name="HW3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HW3-1.0-jar-with-dependencies.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/HW3-1.0-jar-with-dependencies.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="HW3-1.0-launcher.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/HW3-1.0-launcher.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="HW3-1.0.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/HW3-1.0.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="original-HW3-1.0.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/original-HW3-1.0.jar" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Start" />
+        <item itemvalue="JAR Application.HW3-1.0-jar-with-dependencies.jar" />
+        <item itemvalue="JAR Application.HW3-1.0-launcher.jar" />
+        <item itemvalue="JAR Application.HW3-1.0.jar" />
+        <item itemvalue="JAR Application.original-HW3-1.0.jar" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="27abed60-e282-4650-8ea3-a97fcdb068c4" name="Changes" comment="" />
+      <created>1701624348620</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701624348620</updated>
+      <workItem from="1701624349951" duration="24790000" />
+      <workItem from="1701657239314" duration="5519000" />
+      <workItem from="1701990451248" duration="11796000" />
+      <workItem from="1702168917048" duration="30329000" />
+      <workItem from="1702261831653" duration="11969000" />
+      <workItem from="1702404872920" duration="1293000" />
+      <workItem from="1702718882610" duration="15000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DBConnectors/DatabaseHandler.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/UI/TreeExplorer.java</url>
+          <line>117</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/UI/TreeExplorer.java</url>
+          <line>155</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="javax.swing.tree.DefaultMutableTreeNode" memberName="children" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
