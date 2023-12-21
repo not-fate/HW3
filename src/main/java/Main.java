@@ -1,7 +1,6 @@
 import DBConnectors.PostgresHandler;
 import UI.TreeExplorer;
 
-import javax.swing.*;
 import java.io.IOException;
 
 /**
@@ -9,9 +8,9 @@ import java.io.IOException;
  *
  * @author Сорокина Надежда, группа ЗБ-ПИ21-2.
  * <p><a href="https://github.com/not-fate/HW3">Удаленный репозиторий проекта на Github.</a>
- * @version 08.12.2023
+ * @version 21.12.2023
  */
-public class Start {
+public class Main {
     public static void main(String[] args) throws IOException {
         new TreeExplorer(new PostgresHandler());
     }

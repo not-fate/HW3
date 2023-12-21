@@ -34,7 +34,7 @@ public abstract class DatabaseHandler {
         try (var session = sessionFactory.openSession()) {
             Transaction transaction = session.beginTransaction();
             try {
-                session.createSQLQuery("truncate table Trees").executeUpdate();
+                session.createSQLQuery("truncate table TREES").executeUpdate();
                 rows.forEach(session::saveOrUpdate);
                 transaction.commit();
             } catch (Exception e) {

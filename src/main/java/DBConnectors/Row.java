@@ -13,7 +13,7 @@ import java.util.List;
  * Используется в качестве Entity-сущности JPA.
  */
 @Entity
-@Table(name="Trees")
+@Table(name = "TREES")
 public class Row {
     /**
      * Уникальный идентификатор узла.
@@ -24,13 +24,15 @@ public class Row {
      * Уникальный идентификатор родительского узла.
      */
     public int parent_id;
-    public Row(){
+
+    public Row() {
     }
 
-    public Row(int id, int parent_id){
+    public Row(int id, int parent_id) {
         this.id = id;
         this.parent_id = parent_id;
     }
+
     @Override
     public String toString() {
         return id + " " + parent_id;
@@ -38,10 +40,10 @@ public class Row {
 
     public static ArrayList<Row> buildRows(List<Tree> trees) {
         var rows = new ArrayList<Row>();
-        for (var tree:
+        for (var tree :
                 trees) {
             var treeChildren = tree.getNodes();
-            for (var nodes:
+            for (var nodes :
                     treeChildren) {
                 rows.add(new Row(nodes.getId(), nodes.getParentNode().getId()));
             }
