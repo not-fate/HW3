@@ -104,16 +104,15 @@ public class TreeExplorer {
         treesPanel.removeAll();
 
         for (Tree tree : trees) {
-            var treePnl = new JPanel();
-            treePnl.add(new JLabel("Root ID: " + tree.getRoot().getId()));
+            var node = new JPanel();
+            node.add(new JLabel("Root ID: " + tree.getRoot().getId()));
             var treeBtn = new JButton("Show info");
-            treePnl.add(treeBtn);
-
             treeBtn.addActionListener(action -> {
                 showTreeInfo(tree, frame);
                 _showTrees(treesPanel, btn);
             });
-            treesPanel.add(treePnl);
+            node.add(treeBtn);
+            treesPanel.add(node);
         }
         treesPanel.add(btn);
         btn.requestFocusInWindow();
